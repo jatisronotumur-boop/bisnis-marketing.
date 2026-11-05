@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101d38">
+<meta name="description" content="Bisnis Marketing - Usaha penjualan makanan. Hubungi kami melalui WhatsApp.">
+<title>Bisnis Marketing | Official Website</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #18243a;
+  line-height: 1.6;
+}
+
+header {
+  background: #101d38;
+  color: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.hero {
+  background: linear-gradient(135deg,#101d38,#234d83);
+  color: white;
+  padding: 85px 8%;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 550px;
+  margin: auto;
+  color: #dce8fa;
+}
+
+.btn {
+  display: inline-block;
+  background: #19b86b;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+section {
+  padding: 55px 8%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 27px;
+  color: #101d38;
+}
+
+.about {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 13px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,.05);
+}
+
+.card .emoji {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.contact {
+  background: #eaf0f8;
+  text-align: center;
+}
+
+.contact p {
+  margin-top: 10px;
+}
+
+footer {
+  background: #101d38;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 13px;
+}
+
+footer a {
+  color: #bcd6ff;
+  margin: 0 8px;
+}
+
+@media(max-width:600px) {
+  .hero h1 { font-size: 29px; }
+  header { justify-content: center; }
+  nav { text-align: center; }
+  nav a { margin: 5px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">BISNIS MARKETING</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">Tentang</a>
+    <a href="#produk">Produk</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>Selamat Datang di Bisnis Marketing</h1>
+  <p>
+    Mitra pilihan Anda untuk mendapatkan produk
+    makanan dengan pelayanan yang ramah dan profesional.
+  </p>
+  <a class="btn"
+     href="https://wa.me/62883846519334"
+     target="_blank">
+     Hubungi WhatsApp
+  </a>
+</div>
+
+<section id="about">
+  <div class="section-title">
+    <h2>Tentang Kami</h2>
+  </div>
+  <div class="about">
+    <p>
+      Bisnis Marketing merupakan usaha yang bergerak
+      di bidang penjualan makanan. Kami berkomitmen
+      memberikan informasi produk dan pelayanan
+      yang baik kepada pelanggan.
+    </p>
+  </div>
+</section>
+
+<section id="produk">
+  <div class="section-title">
+    <h2>Layanan Kami</h2>
+    <p>Produk dan layanan Bisnis Marketing</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">🍜</div>
+      <h3>Produk Makanan</h3>
+      <p>Berbagai pilihan produk makanan.</p>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🛍️</div>
+      <h3>Pemesanan</h3>
+      <p>Hubungi kami untuk informasi pemesanan.</p>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🤝</div>
+      <h3>Pelayanan</h3>
+      <p>Pelayanan yang ramah dan profesional.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="section-title">
+    <h2>Hubungi Kami</h2>
+  </div>
+
+  <p><b>Nama:</b> Bisnis Marketing</p>
+  <p><b>Bidang:</b> Penjualan Makanan</p>
+  <p><b>WhatsApp:</b> +62 883-8465-19334</p>
+
+  <a class="btn"
+     href="https://wa.me/62883846519334"
+     target="_blank">
+     Chat Sekarang
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Bisnis Marketing. Hak Cipta Dilindungi.</p>
+  <p>
+    <a href="#privacy">Kebijakan Privasi</a>
+  </p>
+  <div id="privacy" style="margin-top:15px">
+    <p>Kami tidak mengumpulkan data pribadi
+    melalui website ini. Saat menghubungi kami,
+    komunikasi dilakukan melalui WhatsApp
+    dan tunduk pada kebijakan privasi WhatsApp.</p>
+  </div>
+</footer>
+
+</body>
+</html>
